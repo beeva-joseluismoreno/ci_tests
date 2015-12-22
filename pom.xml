@@ -91,27 +91,6 @@
                         </archive>
                     </configuration>
                 </plugin>
-                <!-- This plugin check the code against a given JDK signature and is configured to run during test phase -->
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>animal-sniffer-maven-plugin</artifactId>
-                    <version>1.9</version>
-                    <configuration>
-                        <signature>
-                            <groupId>org.codehaus.mojo.signature</groupId>
-                            <artifactId>java16</artifactId>
-                            <version>1.0</version>
-                        </signature>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
-                            <phase>test</phase>
-                        </execution>
-                    </executions>
-                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
