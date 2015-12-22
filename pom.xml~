@@ -5,21 +5,6 @@
 	<artifactId>rt-kbdp-feedbackIngest</artifactId>
 	<version>1.0.0</version>
 
-	<scm>
-    		<url>https://github.com/beeva-joseluismoreno/ci_tests</url>
-    		<connection>scm:git:git://github.com/beeva-joseluismoreno/ci_tests</connection>
-    		<developerConnection>scm:git:git@github.com:beeva-joseluismoreno/ci_tests</developerConnection>
-  	</scm>
-
-	<developers>
-		<developer>
-			<email>joseluis.moreno@beeva.com</email>
-			<name>Jose Luis Moreno</name>
-			<url>https://github.com/beeva-joseluismoreno/ci_tests</url>
-			<id>beeva-joseluismoreno</id>
-		</developer>
-	</developers>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.slf4j</groupId>
